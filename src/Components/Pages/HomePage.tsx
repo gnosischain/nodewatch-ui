@@ -77,6 +77,7 @@ function HomePage() {
         cardContent={
           <>
             <CardStat heading="Node count" stat={nodeStats?.totalNodes.toString() || "-"} isBlue />
+            <CardStat heading="Total discovered peers" stat={nodeStats?.discoveredPeers.toString() || "-"} isBlue />
             <CardStat
               heading="Percentage of network synced"
               isGreen

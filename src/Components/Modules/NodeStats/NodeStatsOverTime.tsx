@@ -28,7 +28,7 @@ const useStyles = makeStyles(({ constants, breakpoints, palette, typography }: E
       height: "inherit",
     },
     chartContainer: {
-      height: "40vh",
+      height: "65vh",
       width: "100%",
       [breakpoints.down("sm")]: {
         height: "30vh",

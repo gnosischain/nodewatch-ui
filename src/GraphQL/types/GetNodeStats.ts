@@ -14,6 +14,7 @@ SPDX-License-Identifier: LGPL-3.0-only
 export interface GetNodeStats_getNodeStats {
   __typename: "NodeStats";
   totalNodes: number;
+  discoveredPeers: number;
   nodeSyncedPercentage: number;
   nodeUnsyncedPercentage: number;
 }

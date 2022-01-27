@@ -8,6 +8,7 @@ export const LOAD_NODE_COUNTS = gql`
   query GetNodeStats {
     getNodeStats {
       totalNodes
+      discoveredPeers
       nodeSyncedPercentage
       nodeUnsyncedPercentage
     }
